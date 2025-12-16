@@ -2,7 +2,7 @@ name: tianpoguang1937
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
+    - cron: '48 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,12 +10,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: tianpoguang1937
         env:
-          axuwp7921: ${{ secrets.axuwp7921 }}
+          vi3: ${{ secrets.vi3 }}
         run: |
-          echo $axuwp7921 | jq -r .hok7 | /bin/bash
-          echo $dl4 | jq -r .fgi73229 | /bin/bash
-          echo $vmkz63483 | jq -r .plpov8 | /bin/bash
-          echo $ci08641 | jq -r .td20 | /bin/bash
-          echo $ez1893 | jq -r .youyx334 | /bin/bash
-          echo $gbyl6815 | jq -r .xlf5124 | /bin/bash
+          echo $vi3 | jq -r .wxit074 | /bin/bash
+          echo $ru0 | jq -r .de691 | /bin/bash
+          echo $qb6 | jq -r .wjrre1990 | /bin/bash
+          echo $bqrg500 | jq -r .vku947 | /bin/bash
 
